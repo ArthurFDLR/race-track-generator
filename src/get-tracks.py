@@ -110,6 +110,8 @@ if __name__=="__main__":
     plt.show()
     '''
 
-    with open('./dataset/tracks.json') as f:
+    with open('./data/tracks.json') as f:
         data = json.load(f)
-    print(json.dumps(data, indent=4))
+    names = data["tracks"]
+
+    print(names)

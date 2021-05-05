@@ -1,46 +1,286 @@
 {
-    "tracks" : [
-        "Castrol Raceway",
-        "Calabogie Motorsports Park",
-        "Circuit Trois-Rivieres",
-        "Circuit Mont-Tremblant",
-        "Canadian Tire Motorsport Park (Mosport)",
-        "Exhibition Place Circuit",
-        "Circuit Gilles Villeneuve",
-        "Edmonton City Centre Airport",
-        "Rockingham Motor Speedway",
-        "Silverstone Circuit",
-        "Oulton Park",
-        "Donington Park",
-        "Top Gear Test Track",
-        "Brands Hatch",
-        "Pikes Peak Internation Hill Climb",
-        "Road America",
-        "Lime Rock Park",
-        "Sonoma Raceway",
-        "Mid-Ohio Sports Car Course",
-        "Watkins Glen International",
-        "Mazda Raceway Laguna SECA",
-        "Indianapolis Motor Speedway",
-        "Eldora Speedway",
-        "Pocono Raceway",
-        "Martinsville Speedway",
-        "Port Imperial Street Circuit",
-        "Willow Springs International Raceway",
-        "Las Vegas Motor Speedway",
-        "Circuit Of The Americas",
-        "Road Atlanta",
-        "Summit Point Motorsports Park",
-        "Virginia International Raceway",
-        "Long Beach Street Circuit",
-        "Barber Motorsports Park",
-        "Darlington Raceway",
-        "Sebring International Raceway",
-        "Daytona International Speedway",
-        "Autodromo Miguel E. Abed",
-        "Autodromo Jose Carlos Pace (Interlagos)",
-        "Potrero De Los Funes Circuit",
-        "Autodromo Juan Y Oscar Galvez",
-        "Anderstorp Raceway"
+    "tracks": [
+        {
+            "name": "Castrol Raceway"
+        },
+        {
+            "name": "Calabogie Motorsports Park"
+        },
+        {
+            "name": "Circuit Trois-Rivieres"
+        },
+        {
+            "name": "Circuit Mont-Tremblant"
+        },
+        {
+            "name": "Canadian Tire Motorsport Park (Mosport)"
+        },
+        {
+            "name": "Exhibition Place Circuit"
+        },
+        {
+            "name": "Circuit Gilles Villeneuve"
+        },
+        {
+            "name": "Edmonton City Centre Airport"
+        },
+        {
+            "name": "Rockingham Motor Speedway"
+        },
+        {
+            "name": "Silverstone Circuit"
+        },
+        {
+            "name": "Oulton Park"
+        },
+        {
+            "name": "Donington Park"
+        },
+        {
+            "name": "Top Gear Test Track"
+        },
+        {
+            "name": "Brands Hatch"
+        },
+        {
+            "name": "Pikes Peak Internation Hill Climb"
+        },
+        {
+            "name": "Road America"
+        },
+        {
+            "name": "Lime Rock Park"
+        },
+        {
+            "name": "Sonoma Raceway"
+        },
+        {
+            "name": "Mid-Ohio Sports Car Course"
+        },
+        {
+            "name": "Watkins Glen International"
+        },
+        {
+            "name": "Mazda Raceway Laguna SECA"
+        },
+        {
+            "name": "Indianapolis Motor Speedway"
+        },
+        {
+            "name": "Eldora Speedway"
+        },
+        {
+            "name": "Pocono Raceway"
+        },
+        {
+            "name": "Martinsville Speedway"
+        },
+        {
+            "name": "Port Imperial Street Circuit"
+        },
+        {
+            "name": "Willow Springs International Raceway"
+        },
+        {
+            "name": "Las Vegas Motor Speedway"
+        },
+        {
+            "name": "Circuit of the Americas"
+        },
+        {
+            "name": "Road Atlanta"
+        },
+        {
+            "name": "Summit Point Motorsports Park"
+        },
+        {
+            "name": "Virginia International Raceway"
+        },
+        {
+            "name": "Long Beach Street Circuit"
+        },
+        {
+            "name": "Barber Motorsports Park"
+        },
+        {
+            "name": "Darlington Raceway"
+        },
+        {
+            "name": "Sebring International Raceway"
+        },
+        {
+            "name": "Daytona International Speedway"
+        },
+        {
+            "name": "Autodromo Miguel E. Abed"
+        },
+        {
+            "name": "Autodromo Jose Carlos Pace (Interlagos)"
+        },
+        {
+            "name": "Potrero de Los Funes Circuit"
+        },
+        {
+            "name": "Autodromo Juan Y Oscar Galvez"
+        },
+        {
+            "name": "Anderstorp Raceway"
+        },
+        {
+            "name": "TT Circuit Assen"
+        },
+        {
+            "name": "Circuit Park Zandvoort"
+        },
+        {
+            "name": "Circuit de Spa"
+        },
+        {
+            "name": "Circuit de la Sarthe"
+        },
+        {
+            "name": "Circuit de Nevers Magny-Cours"
+        },
+        {
+            "name": "Circuit de Dijon-Prenois"
+        },
+        {
+            "name": "Circuit de Paul Ricard"
+        },
+        {
+            "name": "Circuit de Ricardo Tormo"
+        },
+        {
+            "name": "Circuito de Jerez"
+        },
+        {
+            "name": "Circuito del Jarama"
+        },
+        {
+            "name": "Circuit de Barcelona-Catalunya"
+        },
+        {
+            "name": "Autodromo do Estoril"
+        },
+        {
+            "name": "Algarva International Circuit"
+        },
+        {
+            "name": "Kyalami Grand Prix Circuit"
+        },
+        {
+            "name": "Nurburgring"
+        },
+        {
+            "name": "Norisring"
+        },
+        {
+            "name": "Avus"
+        },
+        {
+            "name": "Hockenheimring"
+        },
+        {
+            "name": "Eurospeedway Lausitz"
+        },
+        {
+            "name": "Salzburgring"
+        },
+        {
+            "name": "Red Bull Ring"
+        },
+        {
+            "name": "Circuit de Monaco"
+        },
+        {
+            "name": "Autodromo Enzo E Dino Ferrari (Imola)"
+        },
+        {
+            "name": "Misano World Circuit Marco Simoncelli"
+        },
+        {
+            "name": "Autodromo Nazionale Monza"
+        },
+        {
+            "name": "Aci Vallelunga Circuit"
+        },
+        {
+            "name": "Mugello Circuit"
+        },
+        {
+            "name": "Istanbul Park"
+        },
+        {
+            "name": "Hungaroring"
+        },
+        {
+            "name": "Moscow Raceway"
+        },
+        {
+            "name": "Sochi Olympic Park Circuit"
+        },
+        {
+            "name": "Suzuka Circuit"
+        },
+        {
+            "name": "Tsukuba Circuit"
+        },
+        {
+            "name": "Fuji Speedway"
+        },
+        {
+            "name": "Twin Ring Motegi"
+        },
+        {
+            "name": "Autopolis"
+        },
+        {
+            "name": "Shanghai International Circuit"
+        },
+        {
+            "name": "Guia Circuit"
+        },
+        {
+            "name": "Budoh International Circuit"
+        },
+        {
+            "name": "Dubai Autodrome"
+        },
+        {
+            "name": "Yas Marina Circuit"
+        },
+        {
+            "name": "Bahrain International Circuit"
+        },
+        {
+            "name": "Losail International Circuit"
+        },
+        {
+            "name": "Sepang International Circuit"
+        },
+        {
+            "name": "Marina Bay Street Circuit"
+        },
+        {
+            "name": "Surfers Paradise Street Circuit"
+        },
+        {
+            "name": "Adelaide Street Circuit"
+        },
+        {
+            "name": "Mount Panorama Motor Racing Circuit"
+        },
+        {
+            "name": "Symmons Plains Raceway"
+        },
+        {
+            "name": "Melbourne Grand Prix Circuit (Albert Park)"
+        },
+        {
+            "name": "Philip Island Grand Prix Circuit"
+        },
+        {
+            "name": "Snaefell Mountain Calabogie"
+        }
     ]
 }
