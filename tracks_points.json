@@ -1,0 +1,594 @@
+{
+    "tracks": [
+        {
+            "name": "Castrol Raceway",
+            "upper-left-corner": [
+                555,
+                213
+            ]
+        },
+        {
+            "name": "Calabogie Motorsports Park",
+            "upper-left-corner": [
+                433,
+                342
+            ]
+        },
+        {
+            "name": "Circuit Trois-Rivieres",
+            "upper-left-corner": [
+                473,
+                537
+            ]
+        },
+        {
+            "name": "Circuit Mont-Tremblant",
+            "upper-left-corner": [
+                386,
+                720
+            ]
+        },
+        {
+            "name": "Canadian Tire Motorsport Park (Mosport)",
+            "upper-left-corner": [
+                673,
+                264
+            ]
+        },
+        {
+            "name": "Exhibition Place Circuit",
+            "upper-left-corner": [
+                677,
+                408
+            ]
+        },
+        {
+            "name": "Circuit Gilles Villeneuve",
+            "upper-left-corner": [
+                606,
+                620
+            ]
+        },
+        {
+            "name": "Edmonton City Centre Airport",
+            "upper-left-corner": [
+                946,
+                260
+            ]
+        },
+        {
+            "name": "Rockingham Motor Speedway"
+        },
+        {
+            "name": "Silverstone Circuit",
+            "upper-left-corner": [
+                626,
+                840
+            ]
+        },
+        {
+            "name": "Oulton Park",
+            "upper-left-corner": [
+                822,
+                797
+            ]
+        },
+        {
+            "name": "Donington Park",
+            "upper-left-corner": [
+                946,
+                797
+            ]
+        },
+        {
+            "name": "Top Gear Test Track"
+        },
+        {
+            "name": "Brands Hatch",
+            "upper-left-corner": [
+                862,
+                653
+            ]
+        },
+        {
+            "name": "Pikes Peak Internation Hill Climb"
+        },
+        {
+            "name": "Road America",
+            "upper-left-corner": [
+                1006,
+                508
+            ]
+        },
+        {
+            "name": "Lime Rock Park",
+            "upper-left-corner": [
+                1013,
+                942
+            ]
+        },
+        {
+            "name": "Sonoma Raceway",
+            "upper-left-corner": [
+                1124,
+                360
+            ]
+        },
+        {
+            "name": "Mid-Ohio Sports Car Course",
+            "upper-left-corner": [
+                1100,
+                617
+            ]
+        },
+        {
+            "name": "Watkins Glen International",
+            "upper-left-corner": [
+                1077,
+                764
+            ]
+        },
+        {
+            "name": "Mazda Raceway Laguna SECA",
+            "upper-left-corner": [
+                1240,
+                328
+            ]
+        },
+        {
+            "name": "Indianapolis Motor Speedway"
+        },
+        {
+            "name": "Eldora Speedway"
+        },
+        {
+            "name": "Pocono Raceway",
+            "upper-left-corner": [
+                1244,
+                673
+            ]
+        },
+        {
+            "name": "Martinsville Speedway"
+        },
+        {
+            "name": "Port Imperial Street Circuit",
+            "upper-left-corner": [
+                1140,
+                1031
+            ]
+        },
+        {
+            "name": "Willow Springs International Raceway",
+            "upper-left-corner": [
+                1377,
+                393
+            ]
+        },
+        {
+            "name": "Las Vegas Motor Speedway",
+            "upper-left-corner": [
+                1428,
+                511
+            ]
+        },
+        {
+            "name": "Circuit of the Americas",
+            "upper-left-corner": [
+                1626,
+                602
+            ]
+        },
+        {
+            "name": "Road Atlanta",
+            "upper-left-corner": [
+                1413,
+                715
+            ]
+        },
+        {
+            "name": "Summit Point Motorsports Park",
+            "upper-left-corner": [
+                1362,
+                791
+            ]
+        },
+        {
+            "name": "Virginia International Raceway",
+            "upper-left-corner": [
+                1331,
+                920
+            ]
+        },
+        {
+            "name": "Long Beach Street Circuit",
+            "upper-left-corner": [
+                1666,
+                328
+            ]
+        },
+        {
+            "name": "Barber Motorsports Park",
+            "upper-left-corner": [
+                1651,
+                760
+            ]
+        },
+        {
+            "name": "Darlington Raceway"
+        },
+        {
+            "name": "Sebring International Raceway",
+            "upper-left-corner": [
+                1651,
+                835
+            ]
+        },
+        {
+            "name": "Daytona International Speedway"
+        },
+        {
+            "name": "Autodromo Miguel E. Abed"
+        },
+        {
+            "name": "Autodromo Jose Carlos Pace (Interlagos)",
+            "upper-left-corner": [
+                1744,
+                702
+            ]
+        },
+        {
+            "name": "Potrero de Los Funes Circuit",
+            "upper-left-corner": [
+                1942,
+                524
+            ]
+        },
+        {
+            "name": "Autodromo Juan Y Oscar Galvez",
+            "upper-left-corner": [
+                1977,
+                264
+            ]
+        },
+        {
+            "name": "Anderstorp Raceway",
+            "upper-left-corner": [
+                442,
+                1228
+            ]
+        },
+        {
+            "name": "TT Circuit Assen",
+            "upper-left-corner": [
+                644,
+                1255
+            ]
+        },
+        {
+            "name": "Circuit Park Zandvoort",
+            "upper-left-corner": [
+                671,
+                1331
+            ]
+        },
+        {
+            "name": "Circuit de Spa",
+            "upper-left-corner": [
+                744,
+                1344
+            ]
+        },
+        {
+            "name": "Circuit de la Sarthe"
+        },
+        {
+            "name": "Circuit de Nevers Magny-Cours",
+            "upper-left-corner": [
+                1075,
+                1475
+            ]
+        },
+        {
+            "name": "Circuit de Dijon-Prenois",
+            "upper-left-corner": [
+                1188,
+                1560
+            ]
+        },
+        {
+            "name": "Circuit de Paul Ricard",
+            "upper-left-corner": [
+                1171,
+                1495
+            ]
+        },
+        {
+            "name": "Circuit de Ricardo Tormo",
+            "upper-left-corner": [
+                1502,
+                1522
+            ]
+        },
+        {
+            "name": "Circuito de Jerez",
+            "upper-left-corner": [
+                1588,
+                1177
+            ]
+        },
+        {
+            "name": "Circuito del Jarama",
+            "upper-left-corner": [
+                1402,
+                1120
+            ]
+        },
+        {
+            "name": "Circuit de Barcelona-Catalunya",
+            "upper-left-corner": [
+                1491,
+                1311
+            ]
+        },
+        {
+            "name": "Autodromo do Estoril",
+            "upper-left-corner": [
+                1497,
+                1062
+            ]
+        },
+        {
+            "name": "Algarva International Circuit",
+            "upper-left-corner": [
+                1733,
+                1048
+            ]
+        },
+        {
+            "name": "Kyalami Grand Prix Circuit",
+            "upper-left-corner": [
+                1662,
+                1293
+            ]
+        },
+        {
+            "name": "Nurburgring"
+        },
+        {
+            "name": "Norisring",
+            "upper-left-corner": [
+                146,
+                1964
+            ]
+        },
+        {
+            "name": "Avus"
+        },
+        {
+            "name": "Hockenheimring",
+            "upper-left-corner": [
+                837,
+                1968
+            ]
+        },
+        {
+            "name": "Eurospeedway Lausitz",
+            "upper-left-corner": [
+                895,
+                2162
+            ]
+        },
+        {
+            "name": "Salzburgring",
+            "upper-left-corner": [
+                1006,
+                1586
+            ]
+        },
+        {
+            "name": "Red Bull Ring",
+            "upper-left-corner": [
+                928,
+                1757
+            ]
+        },
+        {
+            "name": "Circuit de Monaco",
+            "upper-left-corner": [
+                1086,
+                1686
+            ]
+        },
+        {
+            "name": "Autodromo Enzo E Dino Ferrari (Imola)",
+            "upper-left-corner": [
+                1037,
+                1891
+            ]
+        },
+        {
+            "name": "Misano World Circuit Marco Simoncelli",
+            "upper-left-corner": [
+                1262,
+                1662
+            ]
+        },
+        {
+            "name": "Autodromo Nazionale Monza"
+        },
+        {
+            "name": "Aci Vallelunga Circuit"
+        },
+        {
+            "name": "Mugello Circuit",
+            "upper-left-corner": [
+                1455,
+                1975
+            ]
+        },
+        {
+            "name": "Istanbul Park",
+            "upper-left-corner": [
+                1084,
+                2051
+            ]
+        },
+        {
+            "name": "Hungaroring",
+            "upper-left-corner": [
+                828,
+                2275
+            ]
+        },
+        {
+            "name": "Moscow Raceway",
+            "upper-left-corner": [
+                562,
+                2293
+            ]
+        },
+        {
+            "name": "Sochi Olympic Park Circuit",
+            "upper-left-corner": [
+                664,
+                2351
+            ]
+        },
+        {
+            "name": "Suzuka Circuit"
+        },
+        {
+            "name": "Tsukuba Circuit",
+            "upper-left-corner": [
+                691,
+                2517
+            ]
+        },
+        {
+            "name": "Fuji Speedway",
+            "upper-left-corner": [
+                684,
+                2782
+            ]
+        },
+        {
+            "name": "Twin Ring Motegi"
+        },
+        {
+            "name": "Autopolis",
+            "upper-left-corner": [
+                924,
+                2848
+            ]
+        },
+        {
+            "name": "Shanghai International Circuit",
+            "upper-left-corner": [
+                868,
+                2475
+            ]
+        },
+        {
+            "name": "Guia Circuit",
+            "upper-left-corner": [
+                1082,
+                2351
+            ]
+        },
+        {
+            "name": "Budoh International Circuit",
+            "upper-left-corner": [
+                1124,
+                2231
+            ]
+        },
+        {
+            "name": "Dubai Autodrome",
+            "upper-left-corner": [
+                1213,
+                1917
+            ]
+        },
+        {
+            "name": "Yas Marina Circuit",
+            "upper-left-corner": [
+                1168,
+                2173
+            ]
+        },
+        {
+            "name": "Bahrain International Circuit",
+            "upper-left-corner": [
+                1340,
+                2268
+            ]
+        },
+        {
+            "name": "Losail International Circuit",
+            "upper-left-corner": [
+                1311,
+                2437
+            ]
+        },
+        {
+            "name": "Sepang International Circuit",
+            "upper-left-corner": [
+                1106,
+                2502
+            ]
+        },
+        {
+            "name": "Marina Bay Street Circuit",
+            "upper-left-corner": [
+                1235,
+                2664
+            ]
+        },
+        {
+            "name": "Surfers Paradise Street Circuit",
+            "upper-left-corner": [
+                1153,
+                2893
+            ]
+        },
+        {
+            "name": "Adelaide Street Circuit",
+            "upper-left-corner": [
+                1513,
+                2611
+            ]
+        },
+        {
+            "name": "Mount Panorama Motor Racing Circuit",
+            "upper-left-corner": [
+                1375,
+                2848
+            ]
+        },
+        {
+            "name": "Symmons Plains Raceway",
+            "upper-left-corner": [
+                1357,
+                3164
+            ]
+        },
+        {
+            "name": "Melbourne Grand Prix Circuit (Albert Park)",
+            "upper-left-corner": [
+                1451,
+                2791
+            ]
+        },
+        {
+            "name": "Philip Island Grand Prix Circuit",
+            "upper-left-corner": [
+                1575,
+                3124
+            ]
+        },
+        {
+            "name": "Snaefell Mountain Calabogie"
+        }
+    ]
+}
