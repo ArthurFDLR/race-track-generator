@@ -1,9 +1,11 @@
 
+from os import name
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 import json
 import sys
+from json_encoder import NoIndent, MyEncoder
 
 
 def draw_border(border, img_shape):
@@ -11,7 +13,10 @@ def draw_border(border, img_shape):
     for c in border:
         img[int(c[0]), int(c[1])] = 0
     return img
-    
+
+def fourierdescp(s):
+    return np.fft.fft(s, len(s))
+
 class TracksExtraction:
 
     def __init__(self, img_path:str, input_data_path:str, display_factor:float=1.0):
@@ -138,16 +143,33 @@ class TracksExtraction:
             if 'points' in self.data["tracks"][i]:
                 print(self.data["tracks"][i]['name'])
                 self.display_track(i, True, folder_path)
+    
+    def save_data_normalized(self, path_save:str):
+        clean_data = {}
+        for track in self.data["tracks"]:
+            if 'points' in track:
+                border_complex = np.array([c[1] + 1j * c[0] for c in track['points']])
+                fourier_descriptors = fourierdescp(border_complex)
+                clean_data[track['name']] = {
+                    'points': NoIndent(track['points']),
+                    'fourier-descriptors': {
+                        'real:' : NoIndent(fourier_descriptors.real.tolist()),
+                        'imag:' : NoIndent(fourier_descriptors.imag.tolist())
+                    }
+                }
+        with open(path_save, 'w') as outfile:
+            outfile.write(json.dumps(clean_data, cls=MyEncoder, sort_keys=True, indent=4))
+            #json.dump(clean_data, outfile, indent=4)
+        print("Tracks data saved in", path_save)
         
 
 if __name__=="__main__":
-
-    print(sys.argv)
-    if len(sys.argv) < 2 or sys.argv[1] not in ['1','2','3']:
-        print("Please provide argument to select action:")
+    if len(sys.argv) < 2 or sys.argv[1] not in ['1','2','3','4']:
+        print("Choose action as argument:")
         print("\t1 - Capture tracks upper-left corners")
         print("\t2 - Generate normalized tracks")
         print("\t3 - Generate tracks plots")
+        print("\t4 - Only export tracks points and Fourier Descriptors")
     
     else:
         if sys.argv[1] == '1':
@@ -166,3 +188,7 @@ if __name__=="__main__":
         elif sys.argv[1] == '3':
             tracks_extraction = TracksExtraction('./data/racetrackmap_raw.jpg', './data/tracks_extracted.json')
             tracks_extraction.generate_track_plot("./data/tracks_plots/")
+        
+        elif sys.argv[1] == '4':
+            tracks_extraction = TracksExtraction('./data/racetrackmap_raw.jpg', './data/tracks_extracted.json')
+            tracks_extraction.save_data_normalized("./data/tracks_fourier.json")
