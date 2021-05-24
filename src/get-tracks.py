@@ -1,21 +1,10 @@
 
-from os import name
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 import json
 import sys
 from json_encoder import NoIndent, MyEncoder
-
-
-def draw_border(border, img_shape):
-    img = np.zeros(img_shape) + 1
-    for c in border:
-        img[int(c[0]), int(c[1])] = 0
-    return img
-
-def fourierdescp(s):
-    return np.fft.fft(s, len(s))
 
 class TracksExtraction:
 
@@ -144,17 +133,21 @@ class TracksExtraction:
                 print(self.data["tracks"][i]['name'])
                 self.display_track(i, True, folder_path)
     
-    def save_data_normalized(self, path_save:str):
+    def save_data_normalized(self, path_save:str, points_order:int=0):
         clean_data = {}
         for track in self.data["tracks"]:
             if 'points' in track:
                 border_complex = np.array([c[1] + 1j * c[0] for c in track['points']])
-                fourier_descriptors = fourierdescp(border_complex)
+                
+                if points_order>0:
+                    border_complex = np.interp(np.linspace(0, len(border_complex), points_order), np.arange(0, len(border_complex)), border_complex)
+                
+                fourier_descriptors = np.fft.fft(border_complex, len(border_complex))
                 clean_data[track['name']] = {
                     'points': NoIndent(track['points']),
                     'fourier-descriptors': {
-                        'real:' : NoIndent(fourier_descriptors.real.tolist()),
-                        'imag:' : NoIndent(fourier_descriptors.imag.tolist())
+                        'real' : NoIndent(fourier_descriptors.real.tolist()),
+                        'imag' : NoIndent(fourier_descriptors.imag.tolist())
                     }
                 }
         with open(path_save, 'w') as outfile:
@@ -191,4 +184,4 @@ if __name__=="__main__":
         
         elif sys.argv[1] == '4':
             tracks_extraction = TracksExtraction('./data/racetrackmap_raw.jpg', './data/tracks_extracted.json')
-            tracks_extraction.save_data_normalized("./data/tracks_fourier.json")
+            tracks_extraction.save_data_normalized("./data/tracks_fourier.json", 2**8)
